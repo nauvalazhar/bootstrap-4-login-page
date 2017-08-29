@@ -23,6 +23,7 @@ body.my-login-page {
 
 .my-login-page .card-wrapper {
 	width: 400px;
+	margin: 0 auto;
 }
 
 .my-login-page .card {
@@ -62,4 +63,21 @@ body.my-login-page {
 	margin: 40px 0;
 	color: #888;
 	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
 }
