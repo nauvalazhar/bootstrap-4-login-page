@@ -1,5 +1,14 @@
+
 # My Login
+> Bootstrap 4 Login Page Template
+
+[![GitHub license](https://img.shields.io/github/license/nauvalazhar/my-login.svg)](https://github.com/nauvalazhar/my-login/blob/master/LICENSE)
+![Author](https://img.shields.io/badge/author-%40nauvalazhar-blue.svg)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/nauvalazhar/my-login/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnauvalazhar%2Fmy-login%2F)
+
 My Login is a Bootstrap 4 Login Page Snippet, you can use it as you wish and it's free for personal or commercial use.
+
+![Preview](https://image.ibb.co/mqGRKK/image.png)
 
 # Installation
 Let's make it easy! Just download this template, use it on your project.
@@ -11,7 +20,9 @@ Let's make it easy! Just download this template, use it on your project.
 - [Reset Password](https://nauvalazhar.github.io/my-login/reset.html)
 
 # Features
-- Bootstrap 4
+- Bootstrap 4.1.3
+- Bootstrap 4 Validation
+- Verified by W3C
 - jQuery 1.12.4
 - 4 Pages included (Login, Register, Forgot Password, Reset Password)
 - Clean design
@@ -31,6 +42,18 @@ Contribution are always welcome and recommended! Here is how:
 - Clone to your machine git clone https://github.com/YOUR_USERNAME/my-login.git
 - Make your changes
 - Create a pull request
+
+# Changelogs
+### Aug 29, 2017
+  **Added**
+  * Verified by W3C
+  * Bootstrap 4 Validation Form
+
+  **Updated**
+  * Bootstrap 4 Version
+
+### Aug 29, 2017
+  - **Initial release**
 
 # License
 [MIT License](http://opensource.org/licenses/MIT)
