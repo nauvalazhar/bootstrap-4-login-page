@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
@@ -14,40 +14,52 @@
 			<div class="row justify-content-md-center h-100">
 				<div class="card-wrapper">
 					<div class="brand">
-						<img src="img/logo.jpg">
+						<img src="img/logo.jpg" alt="bootstrap 4 login page">
 					</div>
 					<div class="card fat">
 						<div class="card-body">
 							<h4 class="card-title">Register</h4>
-							<form method="POST">
-							 
+							<form method="POST" class="my-login-validation" novalidate="">
 								<div class="form-group">
 									<label for="name">Name</label>
 									<input id="name" type="text" class="form-control" name="name" required autofocus>
+									<div class="invalid-feedback">
+										What's your name?
+									</div>
 								</div>
 
 								<div class="form-group">
 									<label for="email">E-Mail Address</label>
 									<input id="email" type="email" class="form-control" name="email" required>
+									<div class="invalid-feedback">
+										Your email is invalid
+									</div>
 								</div>
 
 								<div class="form-group">
 									<label for="password">Password</label>
 									<input id="password" type="password" class="form-control" name="password" required data-eye>
+									<div class="invalid-feedback">
+										Password is required
+									</div>
 								</div>
 
 								<div class="form-group">
-									<label>
-										<input type="checkbox" name="aggree" value="1"> I agree to the Terms and Conditions
-									</label>
+									<div class="custom-checkbox custom-control">
+										<input type="checkbox" name="agree" id="agree" class="custom-control-input" required="">
+										<label for="agree" class="custom-control-label">I agree to the <a href="#">Terms and Conditions</a></label>
+										<div class="invalid-feedback">
+											You must agree with our Terms and Conditions
+										</div>
+									</div>
 								</div>
 
-								<div class="form-group no-margin">
+								<div class="form-group m-0">
 									<button type="submit" class="btn btn-primary btn-block">
 										Register
 									</button>
 								</div>
-								<div class="margin-top20 text-center">
+								<div class="mt-4 text-center">
 									Already have an account? <a href="index.html">Login</a>
 								</div>
 							</form>
