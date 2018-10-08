@@ -56,7 +56,7 @@ Contribution are always welcome and recommended! Here is how:
   - **Initial release**
 
 # Buy me a Coffee
-Support me :) buymeacoff.ee/mhdnauvalazhar
+Support me :) http://buymeacoff.ee/mhdnauvalazhar
 
 # License
 [MIT License](http://opensource.org/licenses/MIT)
