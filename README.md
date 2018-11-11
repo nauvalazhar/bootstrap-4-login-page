@@ -57,7 +57,7 @@ Contribution are always welcome and recommended! Here is how:
 # Looking For a Free Admin Template?
 Stisla is waiting for you. [Download now](https://stisla.multinity.com).
 
-[![Stisla Preview](https://stisla.multinity.com/landing/stisla-preview.png)](https://stisla.multinity.com)
+[![Stisla Preview](https://getstisla.com/landing/stisla-share.png)](https://getstisla.com)
 
 
 # Buy me a Coffee
