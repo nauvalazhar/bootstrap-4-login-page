@@ -73,3 +73,117 @@ body.my-login-page {
 		padding: 15px;
 	}
 }
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-color: rgb(49,48,49);
+	font-family: 'Raleway', sans-serif;
+}
+.container{
+	height: 450px;
+	width: 300px;
+	box-shadow: 0px 10px 20px black;
+}
+#txt1{
+	border: none;
+	padding: 10px;
+	background-color: transparent;
+	border-top: 3px solid rgb(90,187,26);
+	border-right: 3px solid rgb(90,187,26);
+	border-bottom: 3px solid rgb(90,187,26);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 195px;
+	box-shadow: 0 15px 15px black;
+	color: rgb(102,185,24);
+}
+#txt2{
+	border: none;
+	padding: 10px;
+	background-color: transparent;
+	border-top: 3px solid rgb(90,187,26);
+	border-left: 3px solid rgb(90,187,26);
+	border-bottom: 3px solid rgb(90,187,26);
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-left: 80px;
+	margin-top: 20px;
+	box-shadow: 0 15px 15px black;
+	color: rgb(102,185,24);
+}
+#txt1,
+#txt2: focus {
+	outline: none;
+}
+#txt1::placeholder{
+	color: rgb(102,185,24);
+}
+
+#txt2::placeholder{
+	color: rgb(102,185,24);
+}
+h1 {
+	text-align: center;
+	padding: 40px;
+	color:rgb(102,185,24);
+	text-shadow: 5px 3px 6px black;
+	letter-spacing: 1px;
+
+}
+
+p a {
+text-decoration: none;
+color:rgb(102,185,24);
+margin-left: 90px;
+text-shadow: 5px3px 5px black;
+transition: 0.3s;
+}
+p{
+	margin-top: 50px;
+}
+p a::hover {
+	color: green;
+}
+.Login{
+	text-decoration: none;
+
+color:rgb(102,185,24);
+
+}
+
+#btn{
+
+	border: 1.5px solid rgb(99,221,18);
+	padding: 10px 40px;
+	background-color: transparent;
+	border-radius: 20px;
+	margin-left: 96px;
+	margin-top: 20px;
+	box-shadow: 0 15px  20px black;
+    transition:0.3s;
+    text-decoration: none;
+    	border: 3px solid rgb(90,187,26);
+
+}
+#btn:hover{
+	transform: scale(1.2);
+}
+hr {
+		border: 0px solid rgb(99,221,18);
+		width: 0%
+		margin-left: 85px;
+		margin-right: 95px;
+		transition: 0.3s;
+}
+@media screen and (max-width: 480px){
+	#txt2 {
+		margin-left: 158px;
+	}
+}
