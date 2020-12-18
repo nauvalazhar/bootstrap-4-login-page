@@ -65,3 +65,8 @@ Support me :) http://buymeacoff.ee/mhdnauvalazhar
 
 # License
 [MIT License](http://opensource.org/licenses/MIT)
+
+## Examples
+ 
+ * Calling rearrange("Zinkle, Limbad") to ("Liimbad ,Zinkle")
+ 
