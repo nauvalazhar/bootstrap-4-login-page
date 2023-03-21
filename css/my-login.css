@@ -73,3 +73,11 @@ body.my-login-page {
 		padding: 15px;
 	}
 }
+#logo{
+	display: flex;
+	margin-top: 10px;
+}
+.image{
+	height: 50px;
+	border-radius: 5px;
+}
