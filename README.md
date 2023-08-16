@@ -30,7 +30,7 @@ Let's make it easy! Just download this template, use it on your project.
 - Easy to use
 - Cross-browser compatibility (Chrome, Firefox, Opera, IE11, Safari)
 - Fully responsive
-- and more ...
+- and more ..
 
 # Report Some Bugs
 Find a Bug? Please, [create an issue](https://github.com/nauvalazhar/my-login/issues) and we'll fix it together for a better template.
